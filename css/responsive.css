@@ -4,6 +4,23 @@ Medium Screen - Others
 ====================================
 */
 
+@media screen and (min-width: 1500px) and (max-width: 1800px) { 
+.pnati {
+    width: 185px;
+    padding: 5px;
+    left: -103px;
+    top: -200px;
+}
+
+.pnati h5 {
+   font-size: 20px;
+}
+
+.pnati-one ul li {
+    font-size: 15px;
+}
+}
+
 @media screen and (min-width: 1350px) and (max-width: 1500px) {
 
    .header-left ul li a , .header-right-left ul li a {
@@ -69,6 +86,53 @@ Medium Screen - Others
 
 .tsize {
    top: 55%;
+}
+
+.ring-price-left h4 {
+   font-size: 30px;
+   position: relative;
+   top: -12px;
+}
+
+.ring-price-right ul li a {
+    padding-left: 10px;
+}
+
+.p2main-right-block-one-content, .p2main-right-block-one-thumb-img-chg {
+    padding: 0px 10px;
+}
+
+.ring-price-left p {
+    font-size: 15px;
+}
+
+.ring-price-left p span#less {
+   font-size: 15px;
+}
+
+.ring-price-right p {
+   top: 2px;
+}
+
+.pnati {
+    width: 185px;
+    padding: 5px;
+    left: -103px;
+    top: -200px;
+}
+
+.pnati h5 {
+   font-size: 20px;
+}
+
+.pnati-one ul li {
+    font-size: 15px;
+}
+
+.p4tab-content-three-content .pnati {
+    left: inherit;
+    top: -62px;
+    right: 0;
 }
 
 }
@@ -141,6 +205,67 @@ Medium Screen - Others
    top: 58%;
 }
 
+.mini-cart::after {
+   right: 15px;
+}
+
+.p2main-right-block .col-6 {
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+.ring-price-left h4 {
+   font-size: 30px;
+   position: relative;
+   top: -12px;
+}
+
+.ring-price-right ul li a {
+    padding-left: 10px;
+}
+
+.p2main-right-block-one-content, .p2main-right-block-one-thumb-img-chg {
+    padding: 0px 10px;
+}
+
+.ring-price-left p {
+    font-size: 15px;
+}
+
+.ring-price-left p span#less {
+   font-size: 15px;
+}
+
+.ring-price-right p {
+   top: 2px;
+}
+
+.pnati {
+    width: 185px;
+    padding: 5px;
+    left: -103px;
+    top: -200px;
+}
+
+.pnati h5 {
+   font-size: 20px;
+}
+
+.pnati-one ul li {
+    font-size: 15px;
+}
+
+.p4total-left p {
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+.p4tab-content-three-content .pnati {
+    left: inherit;
+    top: -62px;
+    right: 0;
+}
+
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -209,6 +334,93 @@ Medium Screen - Others
 .tsize {
    left: 21px;
    top: 55%;
+}
+
+.p2gold-list-wrapper ul li {
+    font-size: 20px;
+    margin: 0px 15px;
+}
+
+.p2top-drop-middle p {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.p2top-drop-right select {
+    width: 100%;
+}
+
+.p2main-wrapper #p2main-left-part {
+    max-width: 25%;
+    flex: 0 0 25%;
+}
+
+.p2main-wrapper #p2main-right-part {
+    max-width: 75%;
+    flex: 0 0 75%;
+}
+
+.p2main-right-block .col-6 {
+   flex: 50%;
+   max-width: 50%;
+}
+
+.p2main-left-content-one {
+   padding-left: 0;
+   padding-right: 0px;
+}
+
+.pnati {
+   width: 224px;
+   left: -128px;
+   top: -215px;
+}
+
+.pnati-one ul li {
+    font-size: 16px;
+}
+
+.mini-cart::after {
+   right: 15px;
+}
+
+.p3product-left-small {
+   width: 72px;
+}
+
+.p3prodet-wrapper {
+   padding: 20px 35px;
+}
+
+.p3prodet-right {
+   padding-right: 40px;
+}
+
+.p9upload_form {
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.p9upload-form-right-one, .p9upload-form-right-two {
+    width: 48%;
+}
+
+.p4tab-content-two {
+    margin-bottom: 10px;
+}
+
+.p4tab-content-three-content .pnati {
+    left: inherit;
+    top: -74px;
+    right: 0;
+}
+
+.p4tabtwo .p6accdbmin-height {
+    margin-top: 15px;
+} 
+
+.p4tabtwo .p4tab-content-three {
+   margin-top: 15px;
 }
 
 
@@ -342,15 +554,15 @@ Small Screen - Tablate
    }
    
    .ring-price-left h4 {
-      font-size: 16px;
+      font-size: 41px;
    }
    
    .ring-price-left p {
-      font-size: 10px;
+      font-size: 22px;
    }
    
    .ring-price-left p span#less {
-      font-size: 10px;
+      font-size: 24px;
    }
    
    .ring-price-right ul li a {
@@ -381,16 +593,17 @@ Small Screen - Tablate
    
    .pnati {
       padding: 5px;
-      width: 162px;
+      width: 230px;
+      left: -125px;
    }
    
    .pnati h5 {
-      font-size: 16px;
+      font-size: 26px;
    }
    
    .pnati-one ul li {
       margin: 4px 0px;
-      font-size: 10px;
+      font-size: 21px;
    }
    
    .pnati-total p {
@@ -465,8 +678,8 @@ Small Screen - Tablate
    }
    
    .jblock-one {
-      width: 100px;
-      height: 100px;
+      width: 125px;
+      height: 125px;
    }
    
    .jblock-one-img img {
@@ -477,12 +690,12 @@ Small Screen - Tablate
    
    .jblock-one-img p {
       margin-bottom: 0;
-      font-size: 12px;
+      font-size: 18px;
       margin-top: 8px;
    }
    
    .news-left p {
-      font-size: 13px;
+      font-size: 20px;
       margin-bottom: 10px;
       text-align: center;
    }
@@ -549,7 +762,190 @@ Small Screen - Tablate
   }
 
 
+.p2gold-list {
+   display: none;
+}
 
+.p2bannar-wrapper {
+    background-position: top 0px left 0px;
+    background-size: 100% 100%;
+    padding: 52px 20px;
+}
+
+.p2bannar .container {
+   padding-left: 0;
+   padding-right: 0;
+}
+
+#p2main-left-part {
+   display: none;
+}
+
+.p2main-wrapper #p2main-right-part {
+   max-width: 100%;
+   flex: 100%;
+}
+
+.p2main-right-block .col-6 {
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.p2main-right-block-one-thumb p#addtoCart {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.p2main-hover-left p {
+   font-size: 18px;
+}
+
+.babu ul li a {
+   font-size: 18px;
+}
+
+.p2main-hover {
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+.p2main-hover-right button img {
+    display: inline-block;
+    width: 6px;
+}
+
+.p2main-hover-right button {
+   top: 0px!important;
+}
+
+.p2main-right-block-one-content, .p2main-right-block-one-thumb-img-chg {
+   padding: 0px 5px;
+}
+
+.carousel-control-next-icon {
+   width: 11px;
+   margin-right: -40px;
+   height: 20px;
+}
+
+.carousel-control-prev-icon {
+   width: 11px;
+   margin-left: -40px;
+   height: 20px;
+}
+
+.catafil-pagi ul li a {
+   padding: 5px 9px;
+}
+
+.p2bottom-slider {
+   margin-top: 26px;
+}
+
+.p2bottom-slider-heading h4 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.ring-price-left p span#pop {
+    font-size: 24px;
+}
+
+.ring-price-right p {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.p3prodet-wrapper {
+   padding: 20px 15px;
+}
+
+.p3prodet-left {
+    padding-right: 0px;
+}
+
+.p3prodet-right {
+   padding-right: 35px;
+}
+
+.p6accdbmain-wrapper .col-lg-3 {
+   max-width: 30%;
+   flex: 30%;
+}
+
+.p6accdbmain-wrapper .col-lg-9 {
+   max-width: 70%;
+   flex: 70%;
+}
+
+.p6accblank {
+   height: 400px;
+}
+
+.p9upload_form {
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.p9form-wrapper {
+   display: block;
+}
+
+.p9upload-form-right-one, .p9upload-form-right-two {
+    width: 100%;
+}
+
+.p10right-block .col-lg-3 {
+    max-width: 50%;
+    flex: 50%;
+}
+
+.p10right-block .ring-price-left p {
+    font-size: 16px;
+}
+
+.p10right-block .ring-price-left p span#less {
+    font-size: 16px;
+}
+
+.p10right-block .ring-price-left p span#pop {
+    font-size: 16px;
+}
+
+.p10right-block .ring-price-right p {
+    top: 5px;
+    position: relative;
+}
+
+.p10right-block .carousel-control-prev-icon {
+    margin-left: -25px;
+}
+
+.p10right-block .carousel-control-next-icon {
+    margin-right: -25px;
+}
+
+.p4tab-content-two {
+    margin-bottom: 10px;
+}
+
+.p4tab-content-three-content .pnati {
+    left: inherit;
+    top: -60px;
+    right: 0;
+}
+
+.p4tabtwo .p6accdbmin-height {
+    margin-top: 15px;
+} 
+
+.p4tabtwo .p4tab-content-three {
+   margin-top: 15px;
+}
+
+.p6accdbmain-left ul {
+   display: block;
+}
 
 
 
@@ -678,15 +1074,15 @@ Small Screen - Mobile
    }
    
    .ring-price-left h4 {
-      font-size: 16px;
+      font-size: 38px;
    }
    
    .ring-price-left p {
-      font-size: 10px;
+      font-size: 20px;
    }
    
    .ring-price-left p span#less {
-      font-size: 10px;
+      font-size: 20px;
    }
    
    .ring-price-right ul li a {
@@ -717,20 +1113,22 @@ Small Screen - Mobile
    
    .pnati {
       padding: 5px;
-      width: 162px;
+      width: 210px;
+      left: -131px;
    }
    
    .pnati h5 {
-      font-size: 16px;
+      font-size: 22px;
    }
    
    .pnati-one ul li {
       margin: 4px 0px;
-      font-size: 10px;
+      font-size: 18px;
    }
    
    .pnati-total p {
-      font-size: 13px;
+      font-size: 20px;
+      padding: 10px 10px;
    }
    
    .pop-cnt ul {
@@ -801,8 +1199,8 @@ Small Screen - Mobile
    }
    
    .jblock-one {
-      width: 80px;
-      height: 80px;
+      width: 110px;
+      height: 110px;
    }
    
    .jblock-one-img img {
@@ -813,7 +1211,7 @@ Small Screen - Mobile
    
    .jblock-one-img p {
       margin-bottom: 0;
-      font-size: 9px;
+      font-size: 18px;
    }
    
    .news-left p {
@@ -887,7 +1285,7 @@ Small Screen - Mobile
    }
    
    .ring-price-left p span#pop {
-      font-size: 11px;
+      font-size: 20px;
    }
    
    .ring-price-right p {
@@ -897,6 +1295,237 @@ Small Screen - Mobile
       top: 6px;
    }
 
+.p2gold-list {
+   display: none;
+}
+
+.p2bannar-wrapper {
+    background-position: top 0px left 0px;
+    background-size: 100% 100%;
+    padding: 52px 20px;
+}
+
+.p2bannar .container {
+   padding-left: 0;
+   padding-right: 0;
+}
+
+#p2main-left-part {
+   display: none;
+}
+
+.p2main-wrapper #p2main-right-part {
+   max-width: 100%;
+   flex: 100%;
+}
+
+.p2main-right-block .col-6 {
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+.p2main-right-block-one-thumb p#addtoCart {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.p2main-hover-left p {
+   font-size: 18px;
+}
+
+.babu ul li a {
+   font-size: 18px;
+}
+
+.p2main-hover {
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+.p2main-hover-right button img {
+    display: inline-block;
+    width: 6px;
+}
+
+.p2main-hover-right button {
+   top: 0px!important;
+}
+
+.p2main-right-block-one-content, .p2main-right-block-one-thumb-img-chg {
+   padding: 0px 5px;
+}
+
+.carousel-control-next-icon {
+   width: 6px;
+   margin-right: -20px;
+   height: 12px;
+}
+
+.carousel-control-prev-icon {
+   width: 6px;
+   margin-left: -20px;
+   height: 12px;
+}
+
+.catafil-pagi ul li a {
+   padding: 5px 9px;
+}
+
+.p2bottom-slider {
+   margin-top: 26px;
+}
+
+.p2bottom-slider-heading h4 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.ring-price-right ul {
+   position: relative;
+   top: -13px;
+}
+
+.p2top-drop-left h3 {
+    font-size: 28px; 
+}
+
+.p2top-drop-left ul li a {
+    font-size: 15px;
+}
+
+.p2top-drop-left ul li span {
+    margin: 0px 4px;
+}
+
+.p3product-left {
+   flex-direction: column-reverse;
+}
+
+.p3product-left-big {
+   width: 100%;
+}
+
+.p3product-left-small ul {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 15px;
+}
+
+.p3product-left-small ul li {
+   margin: 0px 5px;
+}
+
+.p3product-left-small {
+   width: 100%;
+   margin-right: 0;
+}
+
+.p3product-right {
+   padding-left: 0;
+   margin-top: 40px;
+}
+
+.p3product-right-details-heading h4 {
+    font-size: 40px;
+}
+
+#p3ringprce h4 {
+   font-size: 35px;
+}
+
+#p3ringprce p , #p3ringprce p span#less ,#p3ringprce p span#pop {
+   font-size: 18px;
+}
+
+.p3prodet-wrapper {
+   padding: 15px;
+}
+
+.p3prodet-left {
+    padding-right: 0px;
+} 
+
+.p3prodet-right {
+   padding-left: 0;
+   padding-right: 0;
+   margin-top: 20px;
+}
+
+.p3proslider-wrapper {
+   padding-left: 40px;
+   padding-right: 40px;
+}
+
+.p6accdbmain-wrapper .col-lg-3 {
+   max-width: 100%;
+   flex: 100%;
+}
+
+.p6accdbmain-left {
+    margin-right:0px;
+}
+
+.p6accdbmain-wrapper .col-lg-9 {
+   max-width: 100%;
+   flex: 100%;
+}
+
+.p6accblank {
+   height: 300px;
+}
+
+.p8account_pass_wrapper {
+   max-width: 100%;
+}
+
+.p9upload_form {
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.p9form-wrapper {
+   display: block;
+}
+
+.p9upload-form-right-one, .p9upload-form-right-two {
+    width: 100%;
+}
+
+.p10right-block .col-lg-3 {
+    max-width: 50%;
+    flex: 50%;
+}
+
+.p4tab .p6acctab ul li a.nav-link {
+    padding: 0px 15px;
+    font-size: 20px;
+}
+
+.p4tab-content-one ,
+.p4tab-content-two {
+   height: inherit;
+   margin-bottom: 25px;
+}
+
+.p4tab-content-three-content .pnati {
+    top: -84px;
+    right: 2px;
+    left: inherit;
+}
+
+.p4tabtwo .p6accdbmin-height {
+    margin-top: 15px;
+} 
+
+.p4tabtwo .p4tab-content-three {
+   margin-top: 15px;
+}
+
+.p6accdbmain-left ul {
+   display: none;
+   margin: 0;
+}
 
 
 
@@ -1027,6 +1656,8 @@ Xtra Small Screen - Small Mobile
 .ring-price-left h4 {
    font-size: 16px;
    line-height: 1.5;
+   position: relative;
+   top: -8px;
 }
 
 .ring-price-left p {
@@ -1076,7 +1707,7 @@ Xtra Small Screen - Small Mobile
 
 .pnati-one ul li {
    margin: 4px 0px;
-   font-size: 10px;
+   font-size: 13px;
 }
 
 .pnati-total p {
@@ -1244,8 +1875,259 @@ Xtra Small Screen - Small Mobile
    margin-top: -10px;
    cursor: pointer;
    position: relative;
-   top: 6px;
+   top: 10px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   font-size: 13px;
 }
+
+.p2gold-list {
+   display: none;
+}
+
+.p2bannar-wrapper {
+    background-position: top 0px left 0px;
+    background-size: 100% 100%;
+    padding: 52px 20px;
+}
+
+.p2bannar .container {
+   padding-left: 0;
+   padding-right: 0;
+}
+
+#p2main-left-part {
+   display: none;
+}
+
+.p2main-wrapper #p2main-right-part {
+   max-width: 100%;
+   flex: 100%;
+}
+
+.p2main-right-block .col-6 {
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+.p2main-right-block-one-thumb p#addtoCart {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.p2main-hover-left p {
+   font-size: 18px;
+}
+
+.babu ul li a {
+   font-size: 18px;
+}
+
+.p2main-hover {
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+.p2main-hover-right button img {
+    display: inline-block;
+    width: 6px;
+}
+
+.p2main-hover-right button {
+   top: 0px!important;
+}
+
+.p2main-right-block-one-content, .p2main-right-block-one-thumb-img-chg {
+   padding: 0px 5px;
+}
+
+.carousel-control-next-icon {
+   width: 6px;
+   margin-right: 0px;
+   height: 12px;
+}
+
+.carousel-control-prev-icon {
+   width: 6px;
+   margin-left: 0px;
+   height: 12px;
+}
+
+.catafil-pagi ul li a {
+   padding: 5px 9px;
+}
+
+.p2bottom-slider {
+   margin-top: 26px;
+}
+
+.p2bottom-slider-heading h4 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.p2top-drop-left h3 {
+    font-size: 28px; 
+}
+
+.p2top-drop-left ul li a {
+    font-size: 15px;
+}
+
+.p2top-drop-left ul li span {
+    margin: 0px 4px;
+}
+
+.p3product-left {
+   flex-direction: column-reverse;
+}
+
+.p3product-left-big {
+   width: 100%;
+}
+
+.p3product-left-small ul {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 15px;
+}
+
+.p3product-left-small ul li {
+   margin: 0px 5px;
+}
+
+.p3product-left-small {
+   width: 100%;
+   margin-right: 0;
+}
+
+.p3product-right {
+   padding-left: 0;
+   margin-top: 40px;
+}
+
+.p3product-right-details-heading h4 {
+    font-size: 40px;
+}
+
+#p3ringprce h4 {
+   font-size: 35px;
+}
+
+#p3ringprce p , #p3ringprce p span#less ,#p3ringprce p span#pop {
+   font-size: 18px;
+}
+
+.p3prodet-wrapper {
+   padding: 15px;
+}
+
+.p3prodet-left {
+    padding-right: 0px;
+} 
+
+.p3prodet-right {
+   padding-left: 0;
+   padding-right: 0;
+   margin-top: 20px;
+}
+
+.p3proslider-wrapper {
+   padding-left: 40px;
+   padding-right: 40px;
+}
+
+#header_custormer .dropdown-menu {
+    border: 0;
+    border-radius: 0;
+    box-shadow: -1px 0px 14px -1px rgba(0,0,0,.4);
+    top: 4px !important;
+    margin-right: -22px;
+    left: 1px !important;
+    width: 100%;
+    padding: 10px;
+}
+
+.p6accdbmain-wrapper .col-lg-3 {
+   max-width: 100%;
+   flex: 100%;
+}
+
+.p6accdbmain-left {
+    margin-right:0px;
+}
+
+.p6accdbmain-wrapper .col-lg-9 {
+   max-width: 100%;
+   flex: 100%;
+}
+
+.p6accblank {
+   height: 300px;
+}
+
+.p8account_pass_wrapper {
+   max-width: 100%;
+}
+
+.p6accdbmain-right {
+   margin-top: 35px;
+}
+
+.p9upload_form {
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.p9form-wrapper {
+   display: block;
+}
+
+.p9upload-form-right-one, .p9upload-form-right-two {
+    width: 100%;
+}
+
+.p10right-block .col-lg-3 {
+    max-width: 50%;
+    flex: 50%;
+}
+
+.p4tab .p6acctab ul li a.nav-link {
+    padding: 0px 15px;
+    font-size: 20px;
+}
+
+.p4tab-content-one ,
+.p4tab-content-two {
+   height: inherit;
+   margin-bottom: 25px;
+}
+
+.p4tab-content-three-content .pnati {
+    top: -24px;
+    right: 2px;
+    left: inherit;
+}
+
+.p4tabtwo .p6accdbmin-height {
+    margin-top: 15px;
+} 
+
+.p4tabtwo .p4tab-content-three {
+   margin-top: 15px;
+}
+
+.p6accdbmain-left ul {
+   display: none;
+   margin: 0;
+}
+
+
+
+
+
+
 
 
 

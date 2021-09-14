@@ -39,17 +39,17 @@
 		
 
 		<!-- sm-header area start -->
-		<div class="sm-header bg-white d-block d-lg-none">
-			<!-- alert area start -->
-			<div class="alertspg">
-				<div class="container">
-					<div class="alert-wrapper text-center">
-						<p>FLASH SALES ลดทุกรายการสูงสุด  70% รีบช้อปเลย <span><i class="fas fa-times"></i></span></p>
-					</div>
+		<!-- alert area start -->
+		<div class="alertspg d-block d-lg-none">
+			<div class="container">
+				<div class="alert-wrapper text-center">
+					<p>FLASH SALES ลดทุกรายการสูงสุด  70% รีบช้อปเลย <span><i class="fas fa-times"></i></span></p>
 				</div>
 			</div>
-			<!-- alert area end -->
-				<div class="container">
+		</div>
+		<!-- alert area end -->
+		<div class="sm-header bg-white d-block d-lg-none sticky-top">
+			<div class="container">
 				<div class="sm-header-wrapper">
 					<div class="sm-header-left">
 						<span></span>
@@ -65,7 +65,7 @@
 						<div class="header-right">
 							<div class="header-right-right">
 								<ul>
-									<li id="smser"><a href="#"><img src="img/search.png" alt=""></a></li>
+									<li id="smser"><a href="javascript:void(0);"><img src="img/search.png" alt=""></a></li>
 									<li id="smbeg"><a href="javascript:void(0);"><img src="img/bag.png" alt=""> <span>15</span></a></li>
 								</ul>
 							</div>								
@@ -550,60 +550,36 @@
 					<div class="ring-wrapper">
 						<div class="row">
 							<div class="col">
-								<div class="ring-one" id="ring-one">
-									<div class="ring-thumb text-right">
-										<span>ลด 10%</span>
-										<div class="ring-thumb-img">
-											<img src="img/ring.png" alt="images not found">
-											<div class="pop-cont-wrapper">
-												<div class="pop-cnt text-center">
-													<p>เพิ่มลงตะกร้า</p>									
-												</div>												
+								<div class="p2main-right-block-one">
+									<div class="p2main-right-block-one-thumb">
+										<span id="persent2">ลด 10%</span>
+										<img id="thumbimg2" src="img/ring.png" alt="images not found">
+										<p id="addtoCart">เพิ่มลงตะกร้า</p>
+										<div class="p2main-hover">
+											<div class="p2main-hover-left">
+												<p>เลือกขนาด</p>
+											</div>
+											<div class="p2main-hover-right">
+												<div class="babu">
+													<ul>
+														<li class="active">								
+															<a href="#">50</a>
+															<a href="#">52</a>
+															<a href="#">54</a>
+														</li>
+														<li>								
+															<a href="#">56</a>
+															<a href="#">58</a>
+															<a href="#">60</a>
+														</li>
+													</ul>
+													<button class="prev d-none"><img src="img/tlefts.png" alt="images not found"></button>
+													<button class="next"><img src="img/tright.png" alt="images not found"></button>
+												</div>
 											</div>
 										</div>
 									</div>
-									<div class="tsize">
-										<div class="tsize-left">
-											<h6>เลือกขนาด</h6>
-										</div>
-										<div class="tsize-right">
-											<div class="owl-carousel owl-theme ps-two">
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>50</span></a>
-													</div>
-												</div>
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>52</span></a>
-													</div>
-												</div>
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>54</span></a>
-													</div>
-												</div>
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>56</span></a>
-													</div>
-												</div>
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>58</span></a>
-													</div>
-												</div>										
-											</div>
-											<div class="tsize-arrow">
-												<span id="pstwo"><img src="img/tright.png" alt="images not found"></span>
-											</div>
-										</div>
-									</div>
-									<div class="ring-content">
-										<div class="ring-content-heading">
-											<h5>แหวนดอกพิกุลแก้ว 1 บาท</h5>
-											<span>ทอง 96.5%</span>
-										</div>
+									<div class="p2main-right-block-one-content">
 										<div class="ring-price">
 											<div class="ring-price-left">
 												<h4>30,650</h4>
@@ -615,7 +591,6 @@
 													<li><a href="#"><img src="img/heart.png" alt=""></a></li>
 												</ul>
 												<p id="warning"><span><img src="img/info.png" alt=""></span>	การคำนวนราคา</p>
-
 												<div class="pnati">
 													<span id="pnaticross"><img src="img/cross.png" alt="images not found"></span>
 													<h5>แหวนดอกพิกุลแก้ว 1 บาท</h5>
@@ -637,112 +612,74 @@
 												</div>
 											</div>											
 										</div>
-										<div class="ring-slider">
-											<div class="owl-carousel owl-theme shepa">
-												<div class="item">
-													<div class="ring_slider_img">
-														<img class="border" src="img/ring.png" alt="images not found">
+									</div>
+									<div class="p2main-right-block-one-thumb-img-chg">
+										<div id="carouselExampleControls" class="carousel slide" data-interval="false" data-ride="carousel">
+											<div class="carousel-inner">
+												<div class="carousel-item active">
+													<div class="pro2-one">
+														<ul>
+															<li class="active"><img src="img/ring.png" alt="images not found"></li>
+															<li><img src="img/pr1.png" alt="images not found"></li>
+															<li><img src="img/pr2.png" alt="images not found"></li>
+															<li><img src="img/pr3.png" alt="images not found"></li>
+														</ul>
 													</div>
 												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr1.png" alt="images not found">
+												<div class="carousel-item">
+													<div class="pro2-one">
+														<ul>
+															<li><img src="img/ring.png" alt="images not found"></li>
+															<li><img src="img/pr1.png" alt="images not found"></li>
+															<li><img src="img/pr2.png" alt="images not found"></li>
+															<li><img src="img/pr3.png" alt="images not found"></li>
+														</ul>
 													</div>
 												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr2.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr3.png" alt="images not found">
-													</div>
-												</div>		
-												<div class="item">
-													<div class="ring_slider_img">
-														<img class="border" src="img/ring.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr1.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr2.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr3.png" alt="images not found">
-													</div>
-												</div>									
 											</div>
-											<div class="shepa-nav">
-												<span id="sleft"> <img src="img/tleft.png" alt="images not found"></span>
-												<span id="sright"> <img src="img/tright.png" alt="images not found"></span>
+											<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+												<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+												<span class="sr-only">Previous</span>
+											</a>
+											<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+												<span class="carousel-control-next-icon" aria-hidden="true"></span>
+												<span class="sr-only">Next</span>
+											</a>
 											</div>
-										</div>
-									</div>									
+									</div>
 								</div>
 							</div>
 							<div class="col">
-								<div class="ring-one" id="ring-two" >
-									<div class="ring-thumb text-right">
-										<span>ลด 10%</span>
-										<div class="ring-thumb-img">
-											<img src="img/ring.png" alt="images not found">
-											<div class="pop-cont-wrapper">
-												<div class="pop-cnt text-center">
-													<p>เพิ่มลงตะกร้า</p>									
-												</div>												
+								<div class="p2main-right-block-one">
+									<div class="p2main-right-block-one-thumb">
+										<span id="persent2">ลด 10%</span>
+										<img id="thumbimg2" src="img/ring.png" alt="images not found">
+										<p id="addtoCart">เพิ่มลงตะกร้า</p>
+										<div class="p2main-hover">
+											<div class="p2main-hover-left">
+												<p>เลือกขนาด</p>
+											</div>
+											<div class="p2main-hover-right">
+												<div class="babu">
+													<ul>
+														<li class="active">								
+															<a href="#">50</a>
+															<a href="#">52</a>
+															<a href="#">54</a>
+														</li>
+														<li>								
+															<a href="#">56</a>
+															<a href="#">58</a>
+															<a href="#">60</a>
+														</li>
+													</ul>
+													<button class="prev d-none"><img src="img/tlefts.png" alt="images not found"></button>
+													<button class="next"><img src="img/tright.png" alt="images not found"></button>
+												</div>
 											</div>
 										</div>
 									</div>
-									<div class="tsize">
-										<div class="tsize-left">
-											<h6>เลือกขนาด</h6>
-										</div>
-										<div class="tsize-right">
-											<div class="owl-carousel owl-theme ps-one">
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>50</span></a>
-													</div>
-												</div>
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>52</span></a>
-													</div>
-												</div>
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>54</span></a>
-													</div>
-												</div>
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>56</span></a>
-													</div>
-												</div>
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>58</span></a>
-													</div>
-												</div>										
-											</div>
-											<div class="tsize-arrow">
-												<span id="psone"><img src="img/tright.png" alt="images not found"></span>
-											</div>
-										</div>
-									</div>
-									<div class="ring-content">
-										<div class="ring-content-heading">
-											<h5>แหวนดอกพิกุลแก้ว 1 บาท</h5>
-											<span>ทอง 96.5%</span>
-										</div>
+									<div class="p2main-right-block-one-content">
 										<div class="ring-price">
 											<div class="ring-price-left">
 												<h4>30,650</h4>
@@ -754,7 +691,6 @@
 													<li><a href="#"><img src="img/heart.png" alt=""></a></li>
 												</ul>
 												<p id="warning"><span><img src="img/info.png" alt=""></span>	การคำนวนราคา</p>
-
 												<div class="pnati">
 													<span id="pnaticross"><img src="img/cross.png" alt="images not found"></span>
 													<h5>แหวนดอกพิกุลแก้ว 1 บาท</h5>
@@ -774,114 +710,76 @@
 														<p>รวมสุทธิ <span> 23,040.00</span></p>
 													</div>
 												</div>
-											</div>
+											</div>											
 										</div>
-										<div class="ring-slider">
-											<div class="owl-carousel owl-theme shepa-two">
-												<div class="item">
-													<div class="ring_slider_img">
-														<img class="border" src="img/ring.png" alt="images not found">
+									</div>
+									<div class="p2main-right-block-one-thumb-img-chg">
+										<div id="carouselExampleControls-two" class="carousel slide" data-interval="false" data-ride="carousel">
+											<div class="carousel-inner">
+												<div class="carousel-item active">
+													<div class="pro2-one">
+														<ul>
+															<li class="active"><img src="img/ring.png" alt="images not found"></li>
+															<li><img src="img/pr1.png" alt="images not found"></li>
+															<li><img src="img/pr2.png" alt="images not found"></li>
+															<li><img src="img/pr3.png" alt="images not found"></li>
+														</ul>
 													</div>
 												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr1.png" alt="images not found">
+												<div class="carousel-item">
+													<div class="pro2-one">
+														<ul>
+															<li><img src="img/ring.png" alt="images not found"></li>
+															<li><img src="img/pr1.png" alt="images not found"></li>
+															<li><img src="img/pr2.png" alt="images not found"></li>
+															<li><img src="img/pr3.png" alt="images not found"></li>
+														</ul>
 													</div>
 												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr2.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr3.png" alt="images not found">
-													</div>
-												</div>	
-												<div class="item">
-													<div class="ring_slider_img">
-														<img class="border" src="img/ring.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr1.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr2.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr3.png" alt="images not found">
-													</div>
-												</div>										
 											</div>
-											<div class="shepa-nav">
-												<span id="sleft-two"> <img src="img/tleft.png" alt="images not found"></span>
-												<span id="sright-two"> <img src="img/tright.png" alt="images not found"></span>
+											<a class="carousel-control-prev" href="#carouselExampleControls-two" role="button" data-slide="prev">
+												<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+												<span class="sr-only">Previous</span>
+											</a>
+											<a class="carousel-control-next" href="#carouselExampleControls-two" role="button" data-slide="next">
+												<span class="carousel-control-next-icon" aria-hidden="true"></span>
+												<span class="sr-only">Next</span>
+											</a>
 											</div>
-										</div>
-									</div>									
+									</div>
 								</div>
 							</div>
 							<div class="col">
-								<div class="ring-one" id="ring-three">
-									<div class="ring-thumb text-right">
-										<span>ลด 10%</span>
-										<div class="ring-thumb-img">
-											<img src="img/ring.png" alt="images not found">
-											<div class="pop-cont-wrapper">
-												<div class="pop-cnt text-center">
-													<p>เพิ่มลงตะกร้า</p>									
-												</div>												
+								<div class="p2main-right-block-one">
+									<div class="p2main-right-block-one-thumb">
+										<span id="persent2">ลด 10%</span>
+										<img id="thumbimg2" src="img/ring.png" alt="images not found">
+										<p id="addtoCart">เพิ่มลงตะกร้า</p>
+										<div class="p2main-hover">
+											<div class="p2main-hover-left">
+												<p>เลือกขนาด</p>
 											</div>
-										</div>										
-									</div>
-									<div class="tsize">
-										<div class="tsize-left">
-											<h6>เลือกขนาด</h6>
-										</div>
-										<div class="tsize-right">
-											<div class="owl-carousel owl-theme ps-three">
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>50</span></a>
-													</div>
+											<div class="p2main-hover-right">
+												<div class="babu">
+													<ul>
+														<li class="active">								
+															<a href="#">50</a>
+															<a href="#">52</a>
+															<a href="#">54</a>
+														</li>
+														<li>								
+															<a href="#">56</a>
+															<a href="#">58</a>
+															<a href="#">60</a>
+														</li>
+													</ul>
+													<button class="prev d-none"><img src="img/tlefts.png" alt="images not found"></button>
+													<button class="next"><img src="img/tright.png" alt="images not found"></button>
 												</div>
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>52</span></a>
-													</div>
-												</div>
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>54</span></a>
-													</div>
-												</div>
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>56</span></a>
-													</div>
-												</div>
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>58</span></a>
-													</div>
-												</div>										
-											</div>
-											<div class="tsize-arrow">
-												<span id="psthree"><img src="img/tright.png" alt="images not found"></span>
 											</div>
 										</div>
 									</div>
-									<div class="ring-content">
-										<div class="ring-content-heading">
-											<h5>แหวนดอกพิกุลแก้ว 1 บาท</h5>
-											<span>ทอง 96.5%</span>
-										</div>
+									<div class="p2main-right-block-one-content">
 										<div class="ring-price">
 											<div class="ring-price-left">
 												<h4>30,650</h4>
@@ -893,7 +791,6 @@
 													<li><a href="#"><img src="img/heart.png" alt=""></a></li>
 												</ul>
 												<p id="warning"><span><img src="img/info.png" alt=""></span>	การคำนวนราคา</p>
-
 												<div class="pnati">
 													<span id="pnaticross"><img src="img/cross.png" alt="images not found"></span>
 													<h5>แหวนดอกพิกุลแก้ว 1 บาท</h5>
@@ -913,114 +810,76 @@
 														<p>รวมสุทธิ <span> 23,040.00</span></p>
 													</div>
 												</div>
-											</div>
+											</div>											
 										</div>
-										<div class="ring-slider">
-											<div class="owl-carousel owl-theme shepa-three">
-												<div class="item">
-													<div class="ring_slider_img">
-														<img class="border" src="img/ring.png" alt="images not found">
+									</div>
+									<div class="p2main-right-block-one-thumb-img-chg">
+										<div id="carouselExampleControls-three" class="carousel slide" data-interval="false" data-ride="carousel">
+											<div class="carousel-inner">
+												<div class="carousel-item active">
+													<div class="pro2-one">
+														<ul>
+															<li class="active"><img src="img/ring.png" alt="images not found"></li>
+															<li><img src="img/pr1.png" alt="images not found"></li>
+															<li><img src="img/pr2.png" alt="images not found"></li>
+															<li><img src="img/pr3.png" alt="images not found"></li>
+														</ul>
 													</div>
 												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr1.png" alt="images not found">
+												<div class="carousel-item">
+													<div class="pro2-one">
+														<ul>
+															<li><img src="img/ring.png" alt="images not found"></li>
+															<li><img src="img/pr1.png" alt="images not found"></li>
+															<li><img src="img/pr2.png" alt="images not found"></li>
+															<li><img src="img/pr3.png" alt="images not found"></li>
+														</ul>
 													</div>
 												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr2.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr3.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img class="border" src="img/ring.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr1.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr2.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr3.png" alt="images not found">
-													</div>
-												</div>											
 											</div>
-											<div class="shepa-nav">
-												<span id="sleft-three"> <img src="img/tleft.png" alt="images not found"></span>
-												<span id="sright-three"> <img src="img/tright.png" alt="images not found"></span>
+											<a class="carousel-control-prev" href="#carouselExampleControls-three" role="button" data-slide="prev">
+												<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+												<span class="sr-only">Previous</span>
+											</a>
+											<a class="carousel-control-next" href="#carouselExampleControls-three" role="button" data-slide="next">
+												<span class="carousel-control-next-icon" aria-hidden="true"></span>
+												<span class="sr-only">Next</span>
+											</a>
 											</div>
-										</div>
-									</div>									
+									</div>
 								</div>
 							</div>
 							<div class="col">
-								<div class="ring-one" id="ring-four">
-									<div class="ring-thumb text-right">
-										<span>ลด 10%</span>
-										<div class="ring-thumb-img">
-											<img src="img/ring.png" alt="images not found">
-											<div class="pop-cont-wrapper">
-												<div class="pop-cnt text-center">
-													<p>เพิ่มลงตะกร้า</p>									
-												</div>												
+								<div class="p2main-right-block-one">
+									<div class="p2main-right-block-one-thumb">
+										<span id="persent2">ลด 10%</span>
+										<img id="thumbimg2" src="img/ring.png" alt="images not found">
+										<p id="addtoCart">เพิ่มลงตะกร้า</p>
+										<div class="p2main-hover">
+											<div class="p2main-hover-left">
+												<p>เลือกขนาด</p>
 											</div>
-										</div>										
-									</div>
-									<div class="tsize">
-										<div class="tsize-left">
-											<h6>เลือกขนาด</h6>
-										</div>
-										<div class="tsize-right">
-											<div class="owl-carousel owl-theme ps-four">
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>50</span></a>
-													</div>
+											<div class="p2main-hover-right">
+												<div class="babu">
+													<ul>
+														<li class="active">								
+															<a href="#">50</a>
+															<a href="#">52</a>
+															<a href="#">54</a>
+														</li>
+														<li>								
+															<a href="#">56</a>
+															<a href="#">58</a>
+															<a href="#">60</a>
+														</li>
+													</ul>
+													<button class="prev d-none"><img src="img/tlefts.png" alt="images not found"></button>
+													<button class="next"><img src="img/tright.png" alt="images not found"></button>
 												</div>
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>52</span></a>
-													</div>
-												</div>
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>54</span></a>
-													</div>
-												</div>
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>56</span></a>
-													</div>
-												</div>
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>58</span></a>
-													</div>
-												</div>										
-											</div>
-											<div class="tsize-arrow">
-												<span id="psfour"><img src="img/tright.png" alt="images not found"></span>
 											</div>
 										</div>
 									</div>
-									<div class="ring-content">
-										<div class="ring-content-heading">
-											<h5>แหวนดอกพิกุลแก้ว 1 บาท</h5>
-											<span>ทอง 96.5%</span>
-										</div>
+									<div class="p2main-right-block-one-content">
 										<div class="ring-price">
 											<div class="ring-price-left">
 												<h4>30,650</h4>
@@ -1032,7 +891,6 @@
 													<li><a href="#"><img src="img/heart.png" alt=""></a></li>
 												</ul>
 												<p id="warning"><span><img src="img/info.png" alt=""></span>	การคำนวนราคา</p>
-
 												<div class="pnati">
 													<span id="pnaticross"><img src="img/cross.png" alt="images not found"></span>
 													<h5>แหวนดอกพิกุลแก้ว 1 บาท</h5>
@@ -1052,114 +910,76 @@
 														<p>รวมสุทธิ <span> 23,040.00</span></p>
 													</div>
 												</div>
-											</div>
+											</div>											
 										</div>
-										<div class="ring-slider">
-											<div class="owl-carousel owl-theme shepa-four">
-												<div class="item">
-													<div class="ring_slider_img">
-														<img class="border" src="img/ring.png" alt="images not found">
+									</div>
+									<div class="p2main-right-block-one-thumb-img-chg">
+										<div id="carouselExampleControls-four" class="carousel slide" data-interval="false" data-ride="carousel">
+											<div class="carousel-inner">
+												<div class="carousel-item active">
+													<div class="pro2-one">
+														<ul>
+															<li class="active"><img src="img/ring.png" alt="images not found"></li>
+															<li><img src="img/pr1.png" alt="images not found"></li>
+															<li><img src="img/pr2.png" alt="images not found"></li>
+															<li><img src="img/pr3.png" alt="images not found"></li>
+														</ul>
 													</div>
 												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr1.png" alt="images not found">
+												<div class="carousel-item">
+													<div class="pro2-one">
+														<ul>
+															<li><img src="img/ring.png" alt="images not found"></li>
+															<li><img src="img/pr1.png" alt="images not found"></li>
+															<li><img src="img/pr2.png" alt="images not found"></li>
+															<li><img src="img/pr3.png" alt="images not found"></li>
+														</ul>
 													</div>
 												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr2.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr3.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img class="border" src="img/ring.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr1.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr2.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr3.png" alt="images not found">
-													</div>
-												</div>												
 											</div>
-											<div class="shepa-nav">
-												<span id="sleft-four"> <img src="img/tleft.png" alt="images not found"></span>
-												<span id="sright-four"> <img src="img/tright.png" alt="images not found"></span>
+											<a class="carousel-control-prev" href="#carouselExampleControls-four" role="button" data-slide="prev">
+												<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+												<span class="sr-only">Previous</span>
+											</a>
+											<a class="carousel-control-next" href="#carouselExampleControls-four" role="button" data-slide="next">
+												<span class="carousel-control-next-icon" aria-hidden="true"></span>
+												<span class="sr-only">Next</span>
+											</a>
 											</div>
-										</div>
-									</div>									
+									</div>
 								</div>
 							</div>
 							<div class="col">
-								<div class="ring-one" id="ring-five">
-									<div class="ring-thumb text-right">
-										<span>ลด 10%</span>
-										<div class="ring-thumb-img">
-											<img src="img/ring.png" alt="images not found">
-											<div class="pop-cont-wrapper">
-												<div class="pop-cnt text-center">
-													<p>เพิ่มลงตะกร้า</p>									
-												</div>												
+								<div class="p2main-right-block-one">
+									<div class="p2main-right-block-one-thumb">
+										<span id="persent2">ลด 10%</span>
+										<img id="thumbimg2" src="img/ring.png" alt="images not found">
+										<p id="addtoCart">เพิ่มลงตะกร้า</p>
+										<div class="p2main-hover">
+											<div class="p2main-hover-left">
+												<p>เลือกขนาด</p>
 											</div>
-										</div>										
-									</div>
-									<div class="tsize">
-										<div class="tsize-left">
-											<h6>เลือกขนาด</h6>
-										</div>
-										<div class="tsize-right">
-											<div class="owl-carousel owl-theme ps-five">
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>50</span></a>
-													</div>
+											<div class="p2main-hover-right">
+												<div class="babu">
+													<ul>
+														<li class="active">								
+															<a href="#">50</a>
+															<a href="#">52</a>
+															<a href="#">54</a>
+														</li>
+														<li>								
+															<a href="#">56</a>
+															<a href="#">58</a>
+															<a href="#">60</a>
+														</li>
+													</ul>
+													<button class="prev d-none"><img src="img/tlefts.png" alt="images not found"></button>
+													<button class="next"><img src="img/tright.png" alt="images not found"></button>
 												</div>
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>52</span></a>
-													</div>
-												</div>
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>54</span></a>
-													</div>
-												</div>
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>56</span></a>
-													</div>
-												</div>
-												<div class="item">
-													<div class="sizeinslider">
-														<a href="#"><span>58</span></a>
-													</div>
-												</div>										
-											</div>
-											<div class="tsize-arrow">
-												<span id="psfive"><img src="img/tright.png" alt="images not found"></span>
 											</div>
 										</div>
 									</div>
-									<div class="ring-content">
-										<div class="ring-content-heading">
-											<h5>แหวนดอกพิกุลแก้ว 1 บาท</h5>
-											<span>ทอง 96.5%</span>
-										</div>
+									<div class="p2main-right-block-one-content">
 										<div class="ring-price">
 											<div class="ring-price-left">
 												<h4>30,650</h4>
@@ -1171,7 +991,6 @@
 													<li><a href="#"><img src="img/heart.png" alt=""></a></li>
 												</ul>
 												<p id="warning"><span><img src="img/info.png" alt=""></span>	การคำนวนราคา</p>
-
 												<div class="pnati">
 													<span id="pnaticross"><img src="img/cross.png" alt="images not found"></span>
 													<h5>แหวนดอกพิกุลแก้ว 1 บาท</h5>
@@ -1191,57 +1010,43 @@
 														<p>รวมสุทธิ <span> 23,040.00</span></p>
 													</div>
 												</div>
-											</div>
+											</div>											
 										</div>
-										<div class="ring-slider">
-											<div class="owl-carousel owl-theme shepa-five">
-												<div class="item">
-													<div class="ring_slider_img">
-														<img class="border" src="img/ring.png" alt="images not found">
+									</div>
+									<div class="p2main-right-block-one-thumb-img-chg">
+										<div id="carouselExampleControls-five" class="carousel slide" data-interval="false" data-ride="carousel">
+											<div class="carousel-inner">
+												<div class="carousel-item active">
+													<div class="pro2-one">
+														<ul>
+															<li class="active"><img src="img/ring.png" alt="images not found"></li>
+															<li><img src="img/pr1.png" alt="images not found"></li>
+															<li><img src="img/pr2.png" alt="images not found"></li>
+															<li><img src="img/pr3.png" alt="images not found"></li>
+														</ul>
 													</div>
 												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr1.png" alt="images not found">
+												<div class="carousel-item">
+													<div class="pro2-one">
+														<ul>
+															<li><img src="img/ring.png" alt="images not found"></li>
+															<li><img src="img/pr1.png" alt="images not found"></li>
+															<li><img src="img/pr2.png" alt="images not found"></li>
+															<li><img src="img/pr3.png" alt="images not found"></li>
+														</ul>
 													</div>
 												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr2.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr3.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img class="border" src="img/ring.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr1.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr2.png" alt="images not found">
-													</div>
-												</div>
-												<div class="item">
-													<div class="ring_slider_img">
-														<img src="img/pr3.png" alt="images not found">
-													</div>
-												</div>											
 											</div>
-											<div class="shepa-nav">
-												<span id="sleft-five"> <img src="img/tleft.png" alt="images not found"></span>
-												<span id="sright-five"> <img src="img/tright.png" alt="images not found"></span>
+											<a class="carousel-control-prev" href="#carouselExampleControls-five" role="button" data-slide="prev">
+												<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+												<span class="sr-only">Previous</span>
+											</a>
+											<a class="carousel-control-next" href="#carouselExampleControls-five" role="button" data-slide="next">
+												<span class="carousel-control-next-icon" aria-hidden="true"></span>
+												<span class="sr-only">Next</span>
+											</a>
 											</div>
-										</div>
-									</div>									
+									</div>
 								</div>
 							</div>
 						</div>
@@ -2226,13 +2031,14 @@
 
 		<script src="js/owl.carousel.min.js"></script>
 
-		<script src="js/ps-slider.js"></script>
-
 		<!-- Fontawesome Script -->
 		<script src="https://kit.fontawesome.com/7749c9f08a.js"></script>
 
 		<!-- common jQuery -->
 		<script src="js/common.js"></script>
+
+		<!-- owl-hooks js -->
+		<script src="js/owl-hooks.js"></script>
 		
 		<!-- Custom jQuery -->
 		<script src="js/scripts.js"></script>
